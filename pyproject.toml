@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "promotions-website-backend"
+version = "0.1.0"
+description = ""
+authors = ["dmitry <mitya.kalinin1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"
+sqlalchemy = "^2.0.29"
+aiosqlite = "^0.20.0"
+greenlet = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
