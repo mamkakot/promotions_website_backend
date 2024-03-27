@@ -12,6 +12,7 @@ uvicorn = "^0.29.0"
 sqlalchemy = "^2.0.29"
 aiosqlite = "^0.20.0"
 greenlet = "^3.0.3"
+gunicorn = "^21.2.0"
 
 
 [build-system]
